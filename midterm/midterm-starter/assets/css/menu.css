@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    height: 100px;
+    position: relative;
+}
+
+.logo-item{
+    position: absolute;
+    top: 20%;
+    float:left;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+#navbar{
+    position: absolute;
+    top: 35%;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-item {
+    margin-right: 15px;
+    font-size: 20px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.navbar-item:visited {
+    color: white;
+}
+
+
+footer {
+    background-color: #333;
+    font-family: 'Crimson Pro', serif;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.copyright{
+    float: right;
+    font-size: 12px;
+    margin-top: 80px;
+}
+
+.hours {
+    float: left;
+    align-items: center;
+}
+
+.hours h3{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.hours p{
+    font-size: 15px;
+}
+
+.menu img{
+    width: 100%;
+    height: 390px
+}
+
+#dishes{
+    padding:30px;
+    font-family: 'Crimson Pro', serif;
+    background-color: beige;
+    text-align: center;
+}
+
+.category h2{
+    font-weight: bolder;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.category h2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.category h3{
+    font-weight: bolder;
+}
+
+.recipe h1{
+    font-family: 'EB Garamond', serif;
+    font-size: 60px;
+    font-weight: 4000;
+    margin-bottom: 0%;
+}
+
+.Divider{
+    width: 50%;
+    height: auto;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
