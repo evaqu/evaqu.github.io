@@ -1,0 +1,298 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c3a38e;
+    padding: 15px;
+}
+  
+#navbar{
+    text-align: right; 
+    margin-top: 10px;
+}
+
+.navbar-item{
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.navbar-item:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.navbar-item:visited {
+    color: white;
+}
+
+#social{
+    text-align: left; 
+}
+
+.social-item{
+    display: inline;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.social-item:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+#title {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+}
+
+#map img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.buttons {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: black;
+    border-radius: 50%;
+    opacity: 1;
+    z-index: 2;
+}
+
+#buttonusa {
+    bottom: 26%;
+    left: 12%;
+}
+
+#buttonthailand {
+    bottom: 13%;
+    right: 23%;
+}
+
+#buttonkorea {
+    bottom: 26%;
+    right: 17%;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    background: #c3a38e;
+    opacity: 1;
+}
+
+#destinations {
+    text-align: center;
+    background-color: beige;
+}
+
+#carousel,
+.carousel-image {
+  width: 400px;
+  height: 400px;
+}
+
+#carousel-1,
+.carousel-image-1 {
+  width: 400px;
+  height: 400px;
+}
+
+#carousel-2,
+.carousel-image-2 {
+  width: 400px;
+  height: 400px;
+}
+
+#carousel {
+    position: relative;
+    overflow: hidden;
+    border: 10px solid white;
+    border-bottom: 50px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#carousel-1 {
+    position: relative;
+    overflow: hidden;
+    border: 10px solid white;
+    border-bottom: 50px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#carousel-2 {
+    position: relative;
+    overflow: hidden;
+    border: 10px solid white;
+    border-bottom: 50px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#carousel-image-row {
+    display: flex;
+    position: relative;
+    left: 0px;
+    transition: 0,5s left;
+}
+
+#carousel-image-row-1 {
+    display: flex;
+    position: relative;
+    left: 0px;
+    transition: 0,5s left;
+}
+
+#carousel-image-row-2 {
+    display: flex;
+    position: relative;
+    left: 0px;
+    transition: 0,5s left;
+}
+  
+.carousel-image img {
+    height: 400px;
+    width: 400px;
+}
+
+.carousel-image-1 img {
+    height: 400px;
+    width: 400px;
+}
+
+.carousel-image-2 img {
+    height: 400px;
+    width: 400px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#carousel-controls {			
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+#carousel-controls-1 {			
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+#carousel-controls-2 {			
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+  
+#button-next,
+#button-previous {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}	
+
+#button-next-1,
+#button-previous-1 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}		
+
+#button-next-2,
+#button-previous-2 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}		
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.article-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.article-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: black;
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+    margin: 0;
+}
+
+h3:hover {
+    opacity: 1;
+    cursor: pointer;
+    text-decoration: none;
+    color: #c3a38e;
+}
+
+h3:visited {
+    color: black;
+    text-decoration: none;
+}
